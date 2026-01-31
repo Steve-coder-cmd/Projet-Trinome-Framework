@@ -1,0 +1,18 @@
+# Général
+.env
+.env.*
+node_modules/
+target/
+dist/
+build/
+
+# Java
+*.class
+*.jar
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
