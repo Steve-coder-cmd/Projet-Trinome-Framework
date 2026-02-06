@@ -8,7 +8,8 @@ set "LIB_DIR=lib"
 set "SERVLET_API_JAR=%LIB_DIR%\servlet-api.jar"
 set "JSON_DATABIND_LIB_JAR=%LIB_DIR%\jackson-databind-2.20.1.jar"
 set "JSON_CORE_LIB_JAR=%LIB_DIR%\jackson-core-2.20.1.jar"
-set "CLASSPATH=%SERVLET_API_JAR%;%JSON_DATABIND_LIB_JAR%;%JSON_CORE_LIB_JAR%;%BUILD_DIR%\classes"
+set "POSTGRESQL_JAR=%LIB_DIR%\postgresql-42.6.0.jar"
+set "CLASSPATH=%SERVLET_API_JAR%;%JSON_DATABIND_LIB_JAR%;%JSON_CORE_LIB_JAR%;%POSTGRESQL_JAR%;%BUILD_DIR%\classes"
 
 :: Nom du JAR à générer
 set "JAR_NAME=servlet.jar"

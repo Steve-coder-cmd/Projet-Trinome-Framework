@@ -1,4 +1,4 @@
-CREATE DATABASE agenceVoyage,
+CREATE DATABASE agenceVoyage;
 \c agenceVoyage
 
 CREATE TABLE RESERVATION (
