@@ -1,7 +1,9 @@
+- Sprint 1:
 TeamLead: ETU003199
 
-Dev1: ETU003079
-    |_ A faire:
+Dev1: ETU003079 
+    |_ A faire: Travail dans le cote back-office
 
 Dev2: ETU003205
-    |_ A faire:
+    |_ A faire: Travail dans le cote front-office
+    
