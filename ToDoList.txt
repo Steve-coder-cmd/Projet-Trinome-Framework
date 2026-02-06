@@ -1,0 +1,7 @@
+TeamLead: ETU003199
+
+Dev1: ETU003079
+    |_ A faire:
+
+Dev2: ETU003205
+    |_ A faire:
