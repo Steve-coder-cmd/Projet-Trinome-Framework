@@ -1,0 +1,16 @@
+CREATE DATABASE agenceVoyage,
+\c agenceVoyage
+
+CREATE TABLE RESERVATION (
+	id SERIAL PRIMARY KEY,
+	idClient VARCHAR(4),
+	nbPassagers INT,
+	dateHeureArrivee TIMESTAMP,
+	idHotel INT,
+	FOREIGN KEY (idHotel) REFERENCES HOTEL(id)
+);
+
+CREATE TABLE HOTEL (
+	id SERIAL PRIMARY KEY,
+	nom VARCHAR(255)
+);
