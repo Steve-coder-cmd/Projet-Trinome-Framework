@@ -1,0 +1,30 @@
+Projet trinôme :
+
+- Base de donnée relationnelle aux choix
+
+- BackOffice "Framework" -> backend ; frontend
+
+- FrontOffice "Spring-boot" -> backend : Spring-boot
+
+- Objectif : (1). Mise en place des environnements -> structutre du dossier, deploiement, URL
+		=> Hello world 
+	     (2). Librairie et SQL 
+
+- Fonctionnalites : (1). Reservation (déjà confirme) --> infoClient, nbClient (11 passagers), date et heure, hotel
+		    (2). Vehicule : type, capacite,...
+		    (3). Parametre : tempsAttente, vitesse
+
+- Objectif : (1). ordre de depart (plannification) par rapport a la reservation (par infoClient)
+
+Sprint 1:
+- RESERVATION:
+	id, idclient(xxxx), nb passagers, date et heure arriveer, idHotel
+
+- HOTEL:
+	id, nom
+
+BackOffice : formulaire d'insertion de reservation (sans protection) et d'hotel
+FrontOffice : liste reservation avec filtre par date
+
+Comment: backoffice(Framework MVC) 
+	frontoffice(SpringMVC -> Api Framework)= requête JSON
